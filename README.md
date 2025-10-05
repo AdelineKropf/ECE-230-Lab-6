@@ -20,4 +20,4 @@ In this lab you've learned the basics of number theory as it relates to addition
         It produces the sum of the inputs and a second XOR gate can be used to sum it with the carryover, which together represents the actual sum of the addition in a full bit adder.
 
 ### 3 - What is the largest number a two bit adder can handle? What happens when you go over?
-        A two bit adder can handle up to 6 (unsigned) if you are including the carryout or 3 if you are not including the carryout. When you go over you create overflow, meaning the number represented is not the actual number it was too many bits to represent and so it was truncated and is therefore not correct.
+        A two bit adder can handle up to 6 (unsigned) if you are including the carryout or 3 (unsigned) if you are not including the carryout. When you go over you create overflow, meaning the number represented is not the actual number it was too many bits to represent and so it was truncated and is therefore not correct.
